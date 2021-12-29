@@ -1,0 +1,107 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+/* font-family: 'Amatic SC', cursive; */
+
+
+/****** Estilos generales - globales ******/
+
+figure {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/****** HEADER ******/
+
+header {
+    background-size: 100%;
+}
+
+.header-container {
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    opacity: 0.8;
+}
+
+
+/****** MAIN ******/
+
+
+/****** FOOTER ******/
+footer ul {
+    list-style: none;
+    font-size: 1.25rem;
+    padding-left: 0%;
+}
+
+/* Section 1 - FOOTER*/
+
+.contact-and-list {
+    min-height: 80vh;
+}
+
+.footer-icon-container {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #343a40;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .contact > div > div {
+    padding-bottom: 1rem;
+    
+}
+
+.schedules {
+    width: 85%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.contact-and-list li:hover::before{
+    content: "🠒 ";
+    color: #ffc107;
+}
+
+/* Section 2 - FOOTER */
+.footer-sobre-paradisi {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-and-social-medias li a {
+    text-decoration: none;
+    color: white;
+}
+
+.about-and-social-medias li a:hover {
+    color: #ffc107;
+}
+
+.footer-location-icon {
+    width: 24px;
+    height: 24px;
+    
+    border-radius: 50%;
+}
+
+/* Section 3  - FOOTER*/
+
+
+/****** MEDIA QUERIES ******/
+
+@media screen and (max-width: 767px) {
+
+    header {
+        min-height: 50vh;
+    }
+}
